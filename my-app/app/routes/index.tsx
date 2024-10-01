@@ -1,15 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import { createMyHook } from "my-package";
+import { generateReactHelpers } from "my-package";
 
-const { myHook } = createMyHook();
+const { useMyHook } = generateReactHelpers();
 
 export const Route = createFileRoute("/")({
   component: Home,
 });
 
 function Home() {
-  const { count, increment } = myHook();
+  const { count, increment } = useMyHook();
 
   return (
     <div>
