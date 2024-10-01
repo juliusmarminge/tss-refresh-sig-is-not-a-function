@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import { createMyHook } from "my-package";
 
-const myHook = createMyHook();
+const { myHook } = createMyHook();
 
 export const Route = createFileRoute("/")({
   component: Home,

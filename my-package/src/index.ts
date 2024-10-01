@@ -10,5 +10,5 @@ export function createMyHook() {
     return { count, increment };
   };
 
-  return myHook;
+  return { myHook };
 }
