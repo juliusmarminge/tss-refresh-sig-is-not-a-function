@@ -1,0 +1,10 @@
+{
+  "name": "tss-refresh-sig-is-not-a-function",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "prettier": {},
+  "packageManager": "pnpm@9.10.0"
+}
